@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>
+      <body className="bg-slate-900 text-white lg:w-4/5 mx-auto">
         <Header />
         <main>{children}</main>
       </body>
